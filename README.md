@@ -9,7 +9,7 @@
 # Комментарии к коду:
 - Приложение создано с использованием TypeScript, React и React Hooks.
 - Написаны тесты для проверки запуска приложения и работы todoReducer
-- Проект доступен на GitHub Pages
+- Проект доступен на GitHub Pages  'https://nikal25.github.io/Todo-App/'
 
 ## Available Scripts
 
