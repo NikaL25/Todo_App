@@ -6,15 +6,28 @@
     padding: 20px 0 20px 50px;
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(159, 159, 159);
-
-    &__radio {
-        position: absolute;
-        left: 10px;
-
+  
+    &__icon {
+      position: absolute;
+      left: 10px;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
     }
-
-    &__text.finished {
+  
+    &__text {
+      font-size: 16px;
+      color: #333;
+  
+      &.finished {
         text-decoration: line-through;
-        color: rgb(164, 163, 163);
+        color: rgb(61, 201, 33); // зелёный цвет текста
+      }
     }
-}
+  }
+  
